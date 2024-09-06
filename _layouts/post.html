@@ -27,8 +27,10 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-
   
+</article>
+
+
  {% if jekyll.environment == 'production' -%}
    <script src="https://utteranc.es/client.js"
             repo="johnberzi.github.io"
@@ -39,5 +41,3 @@ layout: default
             async>
     </script>
    {%- endif %}
-  
-</article>
