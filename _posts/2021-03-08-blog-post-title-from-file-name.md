@@ -33,7 +33,7 @@ ForEach ($thing in $things) {
 
 ### Some C++ Code
 
-```c++
+```C++
 class Solution {
 public:
     bool isAnagram(string s, string t) {
