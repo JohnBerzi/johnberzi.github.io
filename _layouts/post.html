@@ -28,6 +28,8 @@ layout: default
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 
+  
+ {% if jekyll.environment == 'production' -%}
   <script src="https://utteranc.es/client.js"
         repo="JohnBerzi.github.io"
         issue-term="og:title"
@@ -35,5 +37,6 @@ layout: default
         crossorigin="anonymous"
         async>
   </script>
+   {%- endif %}
   
 </article>
