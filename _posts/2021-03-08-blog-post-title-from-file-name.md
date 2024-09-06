@@ -30,25 +30,3 @@ ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
 ```
-
-### Some C++ Code
-
-```C++
-class Solution {
-public:
-    bool isAnagram(string s, string t) {
-        unordered_set<string> set;
-        for(int i=0; i < s.size(); i++){
-            set.insert(s[i])
-        }
-        for(int i=0; i < t.size();i++){
-            if(!(set.count(t[i]))){
-                return false
-            }
-        }
-        return true
-    }
-};
-```
-
-{{ addcomments }}
