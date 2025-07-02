@@ -30,3 +30,9 @@ ForEach ($thing in $things) {
     Write-Output "It highlights it using the GitHub style"
 }
 ```
+
+#### Active Directory Enumeration
+
+```cmd
+net user /domain
+```
